@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  background-color: #000;
+  color: #fff;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-panel h1 {
+  font-size: 3rem;
+}
+
+.right-panel {
+  background-color: #fff;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in-box {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.sign-in-box h2 {
+  margin-bottom: 1rem;
+}
+
+.sign-in-box p {
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+.sign-in-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-in-box label {
+  text-align: left;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.sign-in-box input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sign-in-box .forgot-password {
+  margin-bottom: 1.5rem;
+  color: #007bff;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+.sign-in-box .forgot-password:hover {
+  text-decoration: underline;
+}
+
+.sign-in-box button {
+  padding: 0.75rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sign-in-box button:hover {
+  background-color: #333;
+}
+
+.sign-in-box .register {
+  margin-top: 1.5rem;
+  color: #666;
+}
+
+.sign-in-box .register a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sign-in-box .register a:hover {
+  text-decoration: underline;
+}
